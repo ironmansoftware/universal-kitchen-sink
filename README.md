@@ -10,4 +10,4 @@ A PowerShell Universal repository will all features configured.
 
 ## Releases 
 
-Kitchen Sink will be released with each versio of PowerShell Universal. 
+Kitchen Sink will be released with each version of PowerShell Universal. 
