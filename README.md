@@ -1,8 +1,8 @@
-# PowerShell Universal Kitchen Sink
+﻿# PowerShell Universal Kitchen Sink
 
 A PowerShell Universal repository will all features configured. 
 
-## what is the Kitchen Sink? 
+## What is the Kitchen Sink? 
 
 - Repository of PowerShell scripts that configure all features of PowerShell Universal
 - Used for demo and testing purposes
