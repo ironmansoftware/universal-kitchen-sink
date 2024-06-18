@@ -1,0 +1,1 @@
+﻿Read-Host -Prompt "What should I say?"

@@ -1,0 +1,2 @@
+﻿New-PSUEventHub -Name "EventHub" -Description "An unauthenticated event hub. " 
+New-PSUEventHub -Name "AuthedEventHub" -Description "An authenticated event hub. " -Role @('Administrator') -Authenticated
