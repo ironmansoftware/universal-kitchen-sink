@@ -22,5 +22,10 @@ New-PSUEndpoint -Url "/api/request/body" -Description "An endpoint that uses the
 param($BodyProperty)
 } 
 New-PSUEndpoint -Url "/api/request/parameters" -Description "An endpoint that uses a param block." -Method @('GET') -Endpoint {
-# Enter your script to process requests.
+param($Param1, $Param2)
+
+ @{
+    Param1 = $Param1
+    Param2 = $Param2
+ }
 }
