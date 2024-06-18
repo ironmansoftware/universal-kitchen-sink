@@ -1,0 +1,1 @@
+﻿New-PSUTerminal -Name "Terminal" -Description "A PowerShell terminal." -Environment "Agent" -KeepHistory -IdleTimeout 30
