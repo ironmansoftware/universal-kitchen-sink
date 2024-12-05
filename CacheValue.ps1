@@ -1,0 +1,1 @@
+﻿Set-PSUCache -Key 'LastRun' -Value (Get-Date)

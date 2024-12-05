@@ -1,1 +1,4 @@
-﻿New-PSUApp -Name "Scenarios" -FilePath "dashboards\Scenarios\Scenarios.ps1" -BaseUrl "/scenarios" -Authenticated -AutoDeploy -Description "A PowerShell app of common scenarios. "
+﻿New-PSUApp -Name "Custom Role App" -FilePath "dashboards\Custom Role App\Custom Role App.ps1" -BaseUrl "/custom-role" -Authenticated -Role @('Custom Role') -AutoDeploy -Description "An app assigned to a custom role. " 
+New-PSUApp -Name "Data Display" -FilePath "dashboards\Data Display\Data Display.ps1" -BaseUrl "/data-display" -Authenticated -AutoDeploy -Description "Displays data in tables and charts." 
+New-PSUApp -Name "Form" -FilePath "dashboards\Form\Form.ps1" -BaseUrl "/form-app" -AutoDeploy -Description "An app with a form." 
+New-PSUApp -Name "Multi Page" -FilePath "dashboards\Multi Page\Multi Page.ps1" -BaseUrl "/multi-page" -AutoDeploy -Description "An app with multiple pages."

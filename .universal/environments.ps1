@@ -1,5 +1,4 @@
-﻿New-PSUEnvironment -Name "Windows PowerShell 5.1" -Path "powershell.exe" -Variables @('*') -Description "Windows PowerShell 5.1" 
-New-PSUEnvironment -Name "Integrated" -Version "7.4.2" -Path "Universal.Server" -Variables @('*') -Description "An environment for running scripts directly in the PowerShell Universal server." 
-New-PSUEnvironment -Name "Agent" -Version "7.4.2" -Path "C:\src\universal\src\Universal.Server\bin\Debug\Universal.Agent.exe" -Variables @('*') -Description "An environment for running scripts in an external PowerShell Universal agent process." 
-New-PSUEnvironment -Name "PowerShell 7" -Path "pwsh" -Variables @('*') -Description "The current version of PowerShell 7." 
-New-PSUEnvironment -Name "Python  3.10.7" -Version "Python 3.10.7" -Path "C:\Python310\python.exe" -Arguments "{scriptPath}" -Minimal 
+﻿New-PSUEnvironment -Name "Integrated" -Version "7.4.2" -Path "Universal.Server" -Variables @('*') -Description "An environment for running scripts directly in the PowerShell Universal server." 
+New-PSUEnvironment -Name "PowerShell 7" -Version "PowerShell 7" -Path "pwsh" -Variables @('*') -Description "The current version of PowerShell 7." 
+New-PSUEnvironment -Name "Python  3.10.7" -Version "Python 3.10.7" -Path "C:\Python310\python.exe" -Arguments "{scriptPath}" -Variables @('*') -Minimal 
+New-PSUEnvironment -Name "Windows PowerShell 5.1" -Version "Windows PowerShell 5.1" -Path "powershell.exe" -Variables @('*') -Description "Windows PowerShell 5.1"

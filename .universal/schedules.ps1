@@ -1,2 +1,2 @@
-﻿New-PSUSchedule -Cron "* * * * *" -Script "Basic Output.ps1" -TimeZone "America/Chicago" -Name "Every Minute" 
-New-PSUSchedule -Script "Basic Output.ps1" -Continuous -Delay ([System.TimeSpan]::FromSeconds(30)) -Name "30 Second Delay"
+﻿New-PSUSchedule -Script "Basic Output.ps1" -TimeZone "America/Chicago" -Continuous -Delay ([System.TimeSpan]::FromSeconds(30)) -Name "30 Second Delay" 
+New-PSUSchedule -Cron "* * * * *" -Script "Basic Output.ps1" -TimeZone "America/Chicago" -Name "Every Minute"
