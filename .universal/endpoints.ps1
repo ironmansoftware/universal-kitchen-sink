@@ -8,6 +8,8 @@ New-PSUEndpoint -Url "/api/request/:route" -Description "Endpoint with a dynamic
 } -Documentation "API Documentation" 
 New-PSUEndpoint -Url "/api/request/body" -Description "An endpoint that uses the request's body." -Method @('GET') -Endpoint {
     param($BodyProperty)
+
+    $Body
 } -Documentation "API Documentation" 
 New-PSUEndpoint -Url "/api/request/headers" -Description "An endpoint that processes a request's headers." -Method @('GET') -Endpoint {
     $Headers["x-test-header"]
